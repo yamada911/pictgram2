@@ -29,6 +29,7 @@ class SessionsController < ApplicationController
     @current_user = nil
   end
   
+  # rails05 課題2
   def email_params
     params.require(:session).permit(:email)
   end
