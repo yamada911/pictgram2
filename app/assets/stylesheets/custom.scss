@@ -132,10 +132,27 @@ h1, h2 {
       width: 100%;
     }
 
-    .topic-index-icon {
+    .topic-index-icon{
+      width: 35px;
+      height: 30px;
+      margin-left: 20px;
+    }
+    
+    .topic-index-comment {
+      width: 35px;
+      height: 30px;
+      margin-left: 20px;
+    }
+    
+    .topic-index-icon-red{
       width: 35px;
       height: 30px;
       margin-left: 20px;
     }
   }
+}
+
+// rails07 課題１
+.topic-index-icon-red {
+  background-color: #ff0000;
 }
