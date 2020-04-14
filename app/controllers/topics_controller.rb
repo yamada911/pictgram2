@@ -17,6 +17,13 @@ class TopicsController < ApplicationController
       render :new
     end
   end
+  
+  # rails07 確認テスト
+  # def show
+  #   @topic = Topic.find(params[:id])
+  #   @comments = @topic.comments
+  #   @comment = @topic.comments.build
+  # end
 
   private
   def topic_params

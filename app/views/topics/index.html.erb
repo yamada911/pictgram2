@@ -22,11 +22,16 @@
               <% end %>
             <% end %>
               <%= topic.favorites.count %>
+             
+              <%= link_to new_comments_path(topic_id: topic.id) do %>
                 <%= image_tag 'icons/comment.png', class: 'topic-index-comment' %>
+              <% end %>
+              
             <!--説明は段落を変えたいので<p>要素を用いている-->
             <p class="topic-text">
               <%= topic.description %>
             </p>
+            
           </div>
         </div>
       </div>

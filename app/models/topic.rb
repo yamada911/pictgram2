@@ -9,4 +9,7 @@ class Topic < ApplicationRecord
   
   has_many :favorites
   has_many :favorite_users, through: :favorites, source: 'user'
+  
+  # rails07 確認テスト
+  has_many :comments
 end
